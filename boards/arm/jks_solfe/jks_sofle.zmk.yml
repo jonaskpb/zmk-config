@@ -1,0 +1,15 @@
+file_format: "1"
+id: jks_sofle
+name: JKs Sofle
+url: https://github.com/jonaskpb/zmk-config
+type: board
+arch: arm
+features:
+  - keys
+  - display
+outputs:
+  - usb
+  - ble
+siblings:
+  - jks_sofle_left
+  - jks_sofle_right

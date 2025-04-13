@@ -18,3 +18,15 @@
 #     artifact-name: corne_left_with_studio
 #
 ---
+include:
+  - board: jks_sofle_left
+    shield: nice_view
+  - board: jks_sofle_right
+    shield: nice_view_custom
+  - board: jks_sofle_left
+    shield: nice_view
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_STUDIO_LOCKING=n
+    artifact-name: jks_sofle_studio_left
+  - board: jks_sofle_left
+    shield: settings_reset
