@@ -2,8 +2,8 @@
     "id": "jks_sofle",
     "name": "JKs Sofle",
     "layouts": {
-      "default_layout": {
-        "name": "default_layout",
+      "jks_sofle_layout": {
+        "name": "jks_sofle_layout",
         "layout": [
             { "row": 0, "col":  0, "x":   1.5, "y":  0.63 },
             { "row": 0, "col":  1, "x":   2.5, "y":  0.63 },
