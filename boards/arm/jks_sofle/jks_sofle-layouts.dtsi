@@ -1,9 +1,9 @@
 #include <physical_layouts.dtsi>
 
 / {
-    physical_layout0: physical_layout_0 {
+    jks_sofle_layout: jks_sofle_layout {
         compatible = "zmk,physical-layout";
-        display-name = "default_layout";
+        display-name = "Default Layout";
 
         kscan = <&kscan0>;
         transform = <&matrix_transform0>;
